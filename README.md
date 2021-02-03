@@ -7,7 +7,7 @@
 Project Card
 
 <p align="center">
-  <img src="data/ProjectCardMock.png" />
+  <img src="src/data/ProjectCardMock.png" />
 </p>
 
 ## Questions
