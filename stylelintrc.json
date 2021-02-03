@@ -1,0 +1,14 @@
+{
+	"processors": ["stylelint-processor-styled-components"],
+	"extends": [
+		"stylelint-config-standard",
+		"stylelint-config-styled-components"
+	],
+	"syntax": "css-in-js",
+	"rules": {
+		"declaration-property-value-blacklist": {
+			"/.*/": ["unset"]
+		},
+		"indentation": "tab"
+	}
+}

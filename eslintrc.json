@@ -1,0 +1,91 @@
+{
+	"env": {
+		"es6": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:prettier/recommended"
+	],
+	"plugins": ["import"],
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"globals": {
+		"global": false,
+		"window": false,
+		"globalThis": false,
+		"__dirname": false,
+		"__filename": false,
+		"process": false
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [".js", ".jsx", ".json", ".svg", ".css"]
+			},
+			"webpack": {
+				"config": {
+					"resolve": {
+						"alias": {
+							"map": ["${root}", "./src"]
+						}
+					}
+				}
+			}
+		}
+	},
+	"rules": {
+		"arrow-body-style": ["warn", "as-needed"],
+		"curly": ["warn", "multi-line"],
+		"eqeqeq": ["error", "always"],
+		"global-require": "error",
+		"linebreak-style": ["error", "unix"],
+		"no-nested-ternary": "error",
+		"no-undef": "error",
+		"no-unneeded-ternary": "error",
+		"no-var": "error",
+		"no-useless-escape": "off",
+		"prefer-arrow-callback": "error",
+		"prefer-const": "error",
+		"spaced-comment": ["error", "always"],
+		"flowtype/require-valid-file-annotation": [
+			"error",
+			"always",
+			{ "annotationStyle": "block" }
+		],
+		"flowtype/space-after-type-colon": [
+			"error",
+			"always",
+			{ "allowLineBreak": true }
+		],
+		"import/order": [
+			"warn",
+			{
+				"groups": [
+					["builtin", "external"],
+					["internal", "unknown", "parent", "sibling", "index"]
+				],
+				"pathGroups": [
+					{
+						"pattern": "${root}/**",
+						"group": "parent"
+					}
+				],
+				"newlines-between": "always-and-inside-groups",
+				"alphabetize": {
+					"order": "asc",
+					"caseInsensitive": true
+				}
+			}
+		],
+		"import/extensions": [
+			"error",
+			"always",
+			{
+				"js": "never",
+				"": "never"
+			}
+		]
+	}
+}
