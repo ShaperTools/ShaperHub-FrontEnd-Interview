@@ -43,7 +43,7 @@ const TitleWrapper = styled.div`
 `;
 
 const Title = styled.span`
-  font-family: Sans-serif;
+  font-family: "IBM Plex Sans";
   font-size: 22px;
   letter-spacing: 0.15px;
   line-height: 1.3;
@@ -55,7 +55,7 @@ const Title = styled.span`
 
 const SubTitle = styled.div`
   display: flex;
-  font-family: Sans-serif;
+  font-family: "IBM Plex Sans";
   font-size: 15px;
   justify-content: space-between;
   line-height: 1.33;

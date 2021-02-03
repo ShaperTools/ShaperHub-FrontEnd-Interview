@@ -3,7 +3,7 @@
 const projects = [
   {
     id: "5ee877591f3a3e0010b4041e",
-    creator: "Josh Worley",
+    creatorName: "Josh Worley",
     creatorId: "5d40a6c44cd4190017a54e94",
     creatorImage: {
       url:
@@ -18,7 +18,7 @@ const projects = [
   },
   {
     id: "5ee0a68e1f3a3e0010b0f3be",
-    creator: "Jonas Winkler",
+    creatorName: "Jonas Winkler",
     creatorId: "5e171dceb21490000fcf37ef",
     creatorImage: {
       url:
@@ -48,7 +48,7 @@ const projects = [
   },
   {
     id: "5ee01fcb1f3a3e0010b0d53f",
-    creator: "Thor ter Kulve",
+    creatorName: "Thor ter Kulve",
     creatorId: "5ee8ea90ff93e9000fd0c492",
     creatorImage: {
       url:
@@ -63,7 +63,7 @@ const projects = [
   },
   {
     id: "5e8f6468239cba0012eed3d0",
-    creator: "Jonas Winkler",
+    creatorName: "Jonas Winkler",
     creatorId: "5e171dceb21490000fcf37ef",
     creatorImage: {
       url:
@@ -77,8 +77,8 @@ const projects = [
     createdDate: "2020-06-02T21:32:33.000Z",
   },
   {
-    _id: "5ee8751b1f3a3e0010b402b4",
-    creator: "Josh Worley",
+    id: "5ee8751b1f3a3e0010b402b4",
+    creatorName: "Josh Worley",
     creatorId: "5d40a6c44cd4190017a54e94",
     creatorImage: {
       url:
@@ -92,8 +92,8 @@ const projects = [
     createdDate: "2020-06-16T07:30:35.559Z",
   },
   {
-    _id: "5ee0a7a94e47230010dd9659",
-    creator: "Jonas Winkler",
+    id: "5ee0a7a94e47230010dd9659",
+    creatorName: "Jonas Winkler",
     creatorId: "5e171dceb21490000fcf37ef",
     creatorImage: {
       url:
@@ -107,8 +107,8 @@ const projects = [
     createdDate: "2020-06-10T09:28:09.005Z",
   },
   {
-    _id: "5eb917e85b43a60012156fca",
-    creator: "Noah Berkowitz-Mitchell",
+    id: "5eb917e85b43a60012156fca",
+    creatorName: "Noah Berkowitz-Mitchell",
     creatorId: "59bbcf2b291ebbfa71254b61",
     creatorImage: {
       url:
@@ -122,8 +122,8 @@ const projects = [
     createdDate: "2020-06-02T20:39:32.762Z",
   },
   {
-    _id: "5ee0a8a21f3a3e0010b0f437",
-    creator: "Philip Morley",
+    id: "5ee0a8a21f3a3e0010b0f437",
+    creatorName: "Philip Morley",
     creatorId: "5eea9060dce2f37ef547a181",
     creatorImage: {
       url:

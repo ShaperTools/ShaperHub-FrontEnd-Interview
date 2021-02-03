@@ -2,7 +2,21 @@
 
 ## Info
 
-[figma designs](https://www.figma.com/file/gjMIiBSiumf7N6EFQrhrMd/Untitled?node-id=0%3A1)
+## Mocks
+
+Project Card
+
+<p align="center">
+  <img src="data/ProjectCardMock.png" />
+</p>
+
+## Questions
+
+1. Render all projects with the ProjectCard component in App.js
+2. Arrange them in a grid
+3. Hook up the sort dropdown to sort the Projects
+4. Talk about getting data from an API
+5. Talk about styling for mobile
 
 ## Available Scripts
 
