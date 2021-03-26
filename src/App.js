@@ -26,7 +26,7 @@ const App = () => (
 			heading={"Sort By"}
 			options={[
 				{ text: "Most Recent", value: "date" },
-				{ text: "By Title", value: "alpha" },
+				{ text: "By Title", value: "title" },
 				{ text: "By Creator", value: "creator" },
 			]}
 		/>

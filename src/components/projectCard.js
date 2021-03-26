@@ -71,12 +71,11 @@ const ProjectCard = ({
 	subTitle,
 	linkUrl,
 }: {
-	className: string,
+	className?: string,
 	linkUrl: string,
 	imageUrl: string,
 	title: string,
 	subTitle: any,
-	className: string,
 }) => {
 	return (
 		<Card className={className}>
