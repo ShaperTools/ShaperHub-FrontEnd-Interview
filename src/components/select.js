@@ -4,10 +4,10 @@ import React from "react";
 import styled from "styled-components";
 
 const SelectContainer = styled.div`
-	margin-top: 24px;
-	margin-bottom: 24px;
 	align-items: center;
 	display: flex;
+	margin-bottom: 24px;
+	margin-top: 24px;
 `;
 
 const Heading = styled.div`

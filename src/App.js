@@ -6,11 +6,11 @@ import projectData from "./data.js";
 
 const Page = styled.div`
 	color: black;
-	font-family: "IBM Plex Sans";
+	font-family: sans-serif;
 	font-size: 18px;
-	width: 100vw;
 	height: 100vh;
 	padding: 24px;
+	width: 100vw;
 `;
 
 const Projects = styled.div`
