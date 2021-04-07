@@ -2,21 +2,10 @@
 
 ## Info
 
-## Mocks
+To get this running, clone to your local machine.
 
-Project Card
-
-<p align="center">
-  <img src="src/data/ProjectCardMock.png" />
-</p>
-
-## Questions
-
-1. Render all projects with the ProjectCard component in App.js
-2. Arrange them in a grid
-3. Hook up the sort dropdown to sort the Projects
-4. Talk about getting data from an API
-5. Talk about styling for mobile
+run `npm install`
+run `npm start`
 
 ## Available Scripts
 
@@ -24,10 +13,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `npm run build`

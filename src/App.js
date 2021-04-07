@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import React from "react";
 import Select from "./components/select.js";
+import Project from "./components/projectCard.js";
+import projectData from "./data.js";
 
 const Page = styled.div`
 	color: black;
@@ -27,10 +29,18 @@ const App = () => (
 			options={[
 				{ text: "Most Recent", value: "date" },
 				{ text: "By Title", value: "title" },
-				{ text: "By Creator", value: "creator" },
+				{ text: "By Creator", value: "creatorName" },
 			]}
 		/>
-		<Projects>{/*render projects here*/}</Projects>
+		<Projects>
+			{projectData.map((project) => (
+				<Project
+					imageUrl={project.image.url}
+					title={project.title}
+					subTitle={`By ${project.creatorName}`}
+				/>
+			))}
+		</Projects>
 	</Page>
 );
 

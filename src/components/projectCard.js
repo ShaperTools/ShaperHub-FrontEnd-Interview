@@ -6,11 +6,10 @@ import styled from "styled-components";
 const aspectRatio = 5 / 4;
 
 const Card = styled.div`
+	border: 1px solid lightgray;
 	border-radius: 8px;
-	display: block;
 	padding: 12px 12px 16px;
-	position: relative;
-	width: 100px;
+	width: 300px;
 `;
 
 const HeroShot = styled.div`
@@ -29,67 +28,39 @@ const HeroShot = styled.div`
 	}
 `;
 
-const ProjectInfo = styled.div`
-	padding-top: 8px;
-`;
-
-const TitleWrapper = styled.div`
-	align-items: center;
-	display: flex;
-	margin: 0 0 8px;
-`;
-
 const Title = styled.span`
-	font-family: "IBM Plex Sans";
+	font-family: sans-serif;
 	font-size: 22px;
 	letter-spacing: 0.15px;
 	line-height: 1.3;
-	margin: 0;
 	overflow: hidden;
+	padding-top: 8px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 `;
 
 const SubTitle = styled.div`
-	display: flex;
-	font-family: "IBM Plex Sans";
+	font-family: sans-serif;
 	font-size: 15px;
-	justify-content: space-between;
 	line-height: 1.33;
-	margin: 0;
-	padding: 0;
-`;
-
-const Link = styled.a`
-	text-decoration: none;
 `;
 
 const ProjectCard = ({
-	className,
 	imageUrl,
 	title,
 	subTitle,
-	linkUrl,
 }: {
-	className?: string,
-	linkUrl: string,
 	imageUrl: string,
 	title: string,
 	subTitle: any,
 }) => {
 	return (
-		<Card className={className}>
+		<Card>
 			<HeroShot>
 				<img src={imageUrl} alt={title} />
 			</HeroShot>
-			<Link href={linkUrl}>
-				<ProjectInfo key="info">
-					<TitleWrapper key="title-wrap">
-						<Title>{title}</Title>
-					</TitleWrapper>
-					<SubTitle key="subTitle">{subTitle}</SubTitle>
-				</ProjectInfo>
-			</Link>
+			<Title>{title}</Title>
+			<SubTitle key="subTitle">{subTitle}</SubTitle>
 		</Card>
 	);
 };
